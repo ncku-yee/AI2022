@@ -16,7 +16,7 @@ by guiding them to eat grass. They are initially taken to the island with a dang
 won't go there no matter how you beg them. If they can't reach an island with grass 
 by passing only one bridge, they sleep. That means you can't move them anymore. 
 You should guide the capybaras to visit the islands as many as you can. The more they eat, 
-    the cuter they will be.
+the cuter they will be.
     Second, the capybaras are like grass mowers, they will eat all the grass on the island.
 You can't hurry them to the next island when they can still find some grass on the current 
 island. 
@@ -35,9 +35,9 @@ previous information, can you figure out the best plan to fit Hashira's demand?
 
 * The first line contains two integers N, representing the number of islands, and M, which indicating the number of bridges.
 * Each line of the following M lines contains two space-separated integers u and v, indicating that there is a bridge between u and v. (That is, the capybaras can go to u from v and go to v from u by passing the bridge.)
-* $1\leq N \leq 30$
-* $0\leq M \leq \frac{N(N-1)}{2}$
-* $1\leq u, v \leq N$, and $u \neq v$
+* <img src="https://latex.codecogs.com/svg.latex?{1}\leq{N}\leq{30}" />
+* <img src="https://latex.codecogs.com/svg.latex?{0}\leq{M}\leq\frac{N(N-1)}{2}" />
+* <img src="https://latex.codecogs.com/svg.latex?{1}\leq{u,v}\leq{N}" />, and <img src="https://latex.codecogs.com/svg.latex?{u}\neq{v}" />
 
 ## Output
 * The output should be a sequence of integer which indicate the order of islands visited by capybaras. Notice that the number of island also represents island's dangerous level. The sequence should include the initial point and seperated by a whitespace.
@@ -50,12 +50,12 @@ previous information, can you figure out the best plan to fit Hashira's demand?
 
 
 ### Sample Input 1
-5 5
-1 3
-1 2
-1 4
-2 4
-4 5
+5 5  
+1 3  
+1 2  
+1 4  
+2 4  
+4 5  
 
 
 
@@ -66,14 +66,14 @@ previous information, can you figure out the best plan to fit Hashira's demand?
 ---
 
 ### Sample Input 2
-6 7
-2 3
-2 4
-2 5
-1 4
-1 3
-1 2
-5 6
+6 7  
+2 3  
+2 4  
+2 5  
+1 4  
+1 3  
+1 2  
+5 6  
 
 ### Sample Output 2
 1 2 3
@@ -107,7 +107,7 @@ python3 r12345678_hw0.py < testdata.in
 * Your code should named as <student_ID>_hw0.py. Notice that the file name should be in lower case. For example, r12345678_hw0.py is correct, and it should not be R12345678_hw0.py. Please create a <student_ID>_hw0.zip to pack your code. 
 ```
 Filename: r12345678_hw0.zip
-			- r12345678_hw0.py
+          	- r12345678_hw0.py
 ```
 
 * You should not import the module which is not a build-in content in Python. 
